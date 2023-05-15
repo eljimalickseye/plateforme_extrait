@@ -1,0 +1,16 @@
+<Tabs variant='soft-rounded' colorScheme='green'>
+    <TabList>
+    <Tab>Tab 1</Tab>
+  </TabList>
+  <TabPanels>
+    <TabPanel>
+      <p>one!</p>
+    </TabPanel>
+    <TabPanel>
+      <p>two!</p>
+    </TabPanel>
+  </TabPanels>
+    <TabList display="flex" justifyContent="end">
+    <Tab>Tab 2</Tab>
+  </TabList>
+</Tabs>

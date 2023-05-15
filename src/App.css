@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+.incliner{
+transform:rotate(-5deg);
+}
+.decliner{
+transform:rotate(5deg);
+}
+
+.text{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
