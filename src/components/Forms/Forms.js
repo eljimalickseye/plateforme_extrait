@@ -72,9 +72,8 @@ function Forms(){
          <Box mt="20px" height="150px" color="white" width="100%">
             <Stack
               spacing={0.1}
-              className="text"
-              fontWeight="bold"
-              textShadow="1px 1px #000000, -1px -1px #ffffff"
+              
+              
             >
               <Text fontSize="xl">Votre espace etat civil</Text>
               <Text fontSize="xl">electronique. Delivrer des papiers</Text>
