@@ -69,26 +69,23 @@ function Forms(){
 
     return(
         <form onSubmit={handleSubmit}>
-         <Box mt="20px" height="150px" color="white" width="100%">
+         <Box mt="20px" height="150px" color="white" width="20%">
             <Stack
               spacing={0.1}
-              
-              
             >
               <Text fontSize="xl">Votre espace etat civil</Text>
               <Text fontSize="xl">electronique. Delivrer des papiers</Text>
-              <Text fontSize="xl" borderBottom="1px">
+              <Text fontSize="xl" borderBottom="2px">
                 administratifs, partout!🌍️
               </Text>
             </Stack>
           </Box>
 
-          <Box>test</Box>
           <Box>
             {currentStep === 1 && (
-              <Box>
+              <Box bg="white" width="50%" p="20px">
                 {/* Formulaire - Partie 1 */}
-                <p>Formulaire - Partie 1</p>
+                <Text color="white">Formulaire - Partie 1</Text>
                 <Box
                   display="flex"
                   flexDirection="row"
@@ -98,14 +95,15 @@ function Forms(){
                 >
                 
                   <Box
-                    w="400px"
-                    h="400px"
+                    w="350px"
+                    h="250px"
                     bg="white"
                     display="flex"
                     flexDirection="column"
                     alignItems="center"
                     justifyContent="center"
                     rowGap="10px"
+		    border="1px black solid"
                   >
                     <FormControl
                       style={{
@@ -173,14 +171,15 @@ function Forms(){
                     </FormControl>
                   </Box>
                   <Box
-                    w="400px"
-                    h="400px"
+                    w="350px"
+                    h="250px"
                     bg="white"
                     display="flex"
                     flexDirection="column"
                     alignItems="center"
                     justifyContent="center"
                     rowGap="10px"
+		    border="1px black solid"
                   >
                     <FormControl
                       style={{

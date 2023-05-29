@@ -4,10 +4,6 @@ import { Text } from '@chakra-ui/react'
 import { Avatar } from '@chakra-ui/react'
 import { Link } from '@chakra-ui/react';
 
-
-
-
-
 function Release() {
 
     return (
@@ -16,8 +12,8 @@ function Release() {
             <Box mt="20px" height="150px" color="white"
                 width="100%">
                 <Stack spacing={0.1} className="text"
-                    fontWeight="bold"
-                    textShadow="1px 1px #000000, -1px -1px #ffffff" >
+                    fontWeight="600"
+                    fontFamily="system-ui" >
                     <Text fontSize="xl">
                         Votre espace etat civil
                     </Text>
@@ -32,49 +28,49 @@ function Release() {
 
             </Box>
             <Box height="150px"
-                width="100%" justifyContent="center" alignItems="center" display="flex">
+                width="100%" justifyContent="center" alignItems="center" display="flex" fontFamily="system-ui">
                 <Text fontSize='6xl' color="gold">
                     Faire sa Demarche etat Civile sans se deplacer
                 </Text>
             </Box>
             <Box height="180px"
                 width="100%" justifyContent="center" alignItems="center" display="flex" columnGap="50px">
-                <Box w="180px" h="140px" bg="rgba(0, 0, 255, 0.5)" color="white"
+                <Box w="180px" h="140px" bg="#1C614C" color="white"
                     justifyContent="center" alignItems="center" display="flex"
-                    borderRadius="15px"
+                    borderRadius="15px" border="1px white solid"
                 >
-                    <Text fontSize='xl'>
+                    <Text fontSize='3xl'>
                         <Link href="https://example.com" color="white"
                             textDecoration="none">
                             EXTRAIT
                         </Link>
                     </Text>
                 </Box>
-                <Box w="180px" h="140px" bg="rgba(0, 128, 0, 0.65)" color="white"
+                <Box w="180px" h="140px" bg="#5F4D1F" color="white"
                     justifyContent="center" alignItems="center" display="flex"
-                    borderRadius="15px"
+                    borderRadius="15px" border="1px white solid"
                 >
-                    <Text fontSize='xl'>
+                    <Text fontSize='3xl'>
                         <Link href="https://example.com" color="white"
                             textDecoration="none">
                             PASSPORT
                         </Link>
                     </Text>
                 </Box>
-                <Box w="180px" h="140px" bg="rgba(150, 0, 0, 0.65)" color="white"
+                <Box w="180px" h="140px" bg="#4E2C24" color="white"
                     justifyContent="center" alignItems="center" display="flex"
-                    borderRadius="15px"
+                    borderRadius="15px" border="1px white solid"
                 >
-                    <Text fontSize='xl'>
+                    <Text fontSize='3xl'>
                         <Link href="https://example.com" color="white"
                             textDecoration="none">
                             CNI
                         </Link>
                     </Text>
                 </Box>
-                <Box w="180px" h="140px" bg="rgba(0, 0, 0, 0.65)" color="white"
+                <Box w="180px" h="140px" bg="#373737" color="white"
                     justifyContent="center" alignItems="center" display="flex"
-                    borderRadius="15px"
+                    borderRadius="15px" border="1px white solid"
                 >
                     <Text fontSize='xl'>
                         <Link href="https://example.com" color="white"

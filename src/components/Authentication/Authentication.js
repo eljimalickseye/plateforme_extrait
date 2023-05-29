@@ -197,7 +197,7 @@ function Authentication() {
               fontFamily="system-ui"
             >
               <Text fontSize="xl">
-                <marquee>
+                <marquee width="100%">
                 Simplifier vous votre demarche
                 de delivrance de document Etat Civil.
                 </marquee>

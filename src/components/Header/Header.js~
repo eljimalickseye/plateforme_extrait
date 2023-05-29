@@ -1,5 +1,4 @@
 import { Image, Box } from '@chakra-ui/react'
-import { Text } from "@chakra-ui/react";
 function Header() {
   return (
     <>
@@ -11,23 +10,20 @@ function Header() {
 	fontSize="20px"
 	fontWeight="600"
         color="white"
+        mb="100px"
         style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between"
         }}
       >
-	<Box mb="5px" width="20%">
+	<Box mb="5px">
 		<Image
-		width="45%"
+		width="200px"
     		src={require('./image/logo.png')}
     		alt='logo'/>
 	</Box>
-        <Box width="45%" paddingLeft="30px">
-		<Text fontSize="3xl" fontFamily="system-ui">
-			Un Peuple - Un But - Une Foi
-		</Text>
-	</Box>
+        <Box>Un Peuple - Un But - Une Foi</Box>
         <Box mb="5px">
                 <Image
                 width="60px"

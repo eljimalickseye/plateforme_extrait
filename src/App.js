@@ -25,18 +25,18 @@ function App() {
 
   return (
     <ChakraProvider className="App" theme={Theme}>
-      <Flex justify="center" direction="column" align="center">
+      <Flex justify="center" direction='column' align="center">
         <Header />
         <Box
           justify="center"
           direction="column"
           rowGap="20px"
           align="center"
-          bgImage="linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://fotomelia.com/wp-content/uploads/2016/05/photos-gratuites-libres-de-droits-260-1560x1114.jpg')"
+          bgImage="linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),url('https://img.freepik.com/photos-gratuite/developpeur-serieux-tenant-ordinateur-portable-touchant-ecran-virtuel_74855-4735.jpg?size=626&ext=jpg')"
           bgSize="cover"
           bgPosition="center"
-          h="743.5px"
-          w="100%"
+          h="90.6vh"
+	  w="100%"
         >
          <Forms />
         </Box>
